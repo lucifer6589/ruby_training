@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def reverse_sentence(sentence)
-  words = sentence.split
+  words = sentence.split("/")
   reversed_words = words.reverse
   reversed_words.join(' ')
 end

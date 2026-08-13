@@ -1,5 +1,12 @@
-puts "Ruby Working"
 
-puts RUBY_VERSION
 
-puts RUBY_PLATFORM
+
+class String
+  def test
+    puts self
+    puts self.upcase
+    puts upcase
+  end
+end
+
+"abcde".test

@@ -4,7 +4,7 @@ require 'json'
 
 def power(array, exponent)
   power_array = array.map do |num|
-    num**exponent
+    num ** exponent
   end
   power_array
 end
