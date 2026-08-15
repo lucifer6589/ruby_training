@@ -1,12 +1,12 @@
 
-
-
-class String
-  def test
+class Person
+  def show_self
     puts self
-    puts self.upcase
-    puts upcase
   end
 end
 
-"abcde".test
+a = Person.new
+b = Person.new
+
+a.show_self
+b.show_self
