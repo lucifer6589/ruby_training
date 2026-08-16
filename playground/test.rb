@@ -1,12 +1,7 @@
-
-class Person
-  def show_self
-    puts self
-  end
+class A 
+end
+class B 
+end
+class C < A, B 
 end
 
-a = Person.new
-b = Person.new
-
-a.show_self
-b.show_self
